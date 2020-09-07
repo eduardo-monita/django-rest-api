@@ -1,4 +1,5 @@
 # django-rest-api
+Meu primeiro projeto Django utilizando rest-framework.
 
 # Instalações
 - Se você deseja executar o projeto, primeiro certifique-se de ter o python instalado globalmente em seu computador. Se não, você pode obter python [aqui](https://python.org.br/instalacao-windows/ "aqui").
