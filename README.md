@@ -28,8 +28,8 @@ Meu primeiro projeto Django utilizando rest-framework.
     $ python manage.py migrate
 
 - # Executá-lo
-- Inicie o servidor usando este comando simples:
+1. Inicie o servidor usando este comando simples:
 
     $ python manage.py runserver
-- Agora você pode acessar o serviço API de arquivo em seu navegador usando:
+2. Agora você pode acessar o serviço API de arquivo em seu navegador usando:
     http://localhost:8000/
