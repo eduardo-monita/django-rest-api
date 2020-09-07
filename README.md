@@ -11,17 +11,17 @@ Meu primeiro projeto Django utilizando rest-framework.
 
         $ git clone https://github.com/duduMonita/django-rest-api.git
 - # Depêndencias
-1. Crie e ative seu ambiente virtual:
+1.  Cd em seu repositório clonado como tal:
+
+        $ cd django-rest-api
+2. Crie e ative seu ambiente virtual:
 
         $ virtualenv env -p python3
     
         $ source env/Scripts/Activate
-2. Instale as dependências necessárias para executar o aplicativo:
+3. Instale as dependências necessárias para executar o aplicativo:
 
         $ pip install -r requirements.txt
-3.  Cd em seu repositório clonado como tal:
-
-        $ cd ./huai/
 4. Faça essas migrações funcionarem:
 
         $ python manage.py makemigrations
