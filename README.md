@@ -14,6 +14,7 @@ Meu primeiro projeto Django utilizando rest-framework.
 1. Crie e ative seu ambiente virtual:
 
     $ virtualenv  env -p python3
+    
     $ source env/bin/activate
 2. Instale as dependências necessárias para executar o aplicativo:
 
