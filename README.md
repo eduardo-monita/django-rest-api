@@ -254,7 +254,7 @@ GET http://localhost:8000/lote/?page=2
 }
 ```
 
-Todo endpoint é similar ao Lote endpoint.
+#### Obs: Todos endpoint models são similares ao Lote endpoint.
 
 ### Relatório endpoint
 GET http://localhost:8000/relatorio/
@@ -443,13 +443,17 @@ RESPONSE
     ]
 }
 ```
-GET http://localhost:8000/relatorio/?ordering=valor_total&page=2        
+GET http://localhost:8000/relatorio/?ordering=valor_total&page=2
+
 Order by valor_total - ascending
-GET http://localhost:8000/relatorio/?-ordering=valor_total&page=2       
+GET http://localhost:8000/relatorio/?-ordering=valor_total&page=2  
+
 Order by valor_total - descending
-GET http://localhost:8000/relatorio/?ordering=dt_compra&page=2          
+GET http://localhost:8000/relatorio/?ordering=dt_compra&page=2   
+
 Order by dt_compra - ascending
 GET http://localhost:8000/relatorio/?-ordering=dt_compra&page=2         
+
 Order by dt_compra - descending
 
 RESPONSE
