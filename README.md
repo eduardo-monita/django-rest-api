@@ -1,34 +1,33 @@
 # django-rest-api
 
-# Installation
-- If you wish to run your own build, first ensure you have python globally installed in your computer. If not, you can get python [here](https://python.org.br/instalacao-windows/ "here").
+# Instalações
+- Se você deseja executar o projeto, primeiro certifique-se de ter o python instalado globalmente em seu computador. Se não, você pode obter python [aqui](https://python.org.br/instalacao-windows/ "aqui").
 
-- After doing this, confirm that you have installed virtualenv globally as well. If not, run this:
+- Depois de fazer isso, confirme se você também instalou o virtualenv globalmente. Caso contrário, execute este:
 
     $ pip install virtualenv
-- Then, Git clone this repo to your PC
+- Logo em seguida, Git clone este repositório para o seu PC
 
-    $ git clone https://github.com/gitgik/django-rest-api.git
-- # Dependencies
-1.  Cd into your the cloned repo as such:
+    $ git clone https://github.com/duduMonita/django-rest-api.git
+- # Depêndencias
+1. Crie e ative seu ambiente virtual:
 
-    $ cd django-rest-api
-2. Create and fire up your virtual environment:
-
-    $ virtualenv  venv -p python3
-    $ source venv/bin/activate
-3. Install the dependencies needed to run the app:
+    $ virtualenv  env -p python3
+    $ source env/bin/activate
+2. Instale as dependências necessárias para executar o aplicativo:
 
     $ pip install -r requirements.txt
-4. Make those migrations work
+3.  Cd em seu repositório clonado como tal:
+
+    $ cd ./huai/
+4. Faça essas migrações funcionarem:
 
     $ python manage.py makemigrations
     $ python manage.py migrate
 
-- # Run It
-- Fire up the server using this one simple command:
+- # Executá-lo
+- Inicie o servidor usando este comando simples:
 
     $ python manage.py runserver
-- You can now access the file api service on your browser by using
-
+- Agora você pode acessar o serviço API de arquivo em seu navegador usando:
     http://localhost:8000/
