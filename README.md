@@ -71,7 +71,7 @@ Endpoint |HTTP | CRUD | Resultado
 `pedido`| POST | CREATE | Cria um novo pedido
 `pedido/:pk` | PUT | UPDATE | Atualiza um nove pedido
 `pedido/:pk` | DELETE | DELETE | Deleta um pedido
-`relatorio/?page=valor` | GET | READ | Seleciona todos os pedidos e suas respectivas relações detalhadas
+`relatorio/?ordering=campo&page=2` | GET | READ | Seleciona todos os pedidos e suas respectivas relações detalhadas
 
 ## Usage
 ### Auth endpoint
