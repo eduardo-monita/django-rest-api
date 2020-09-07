@@ -22,7 +22,10 @@ Meu primeiro projeto Django utilizando rest-framework.
 3. Instale as dependências necessárias para executar o aplicativo:
 
         $ pip install -r requirements.txt
-4. Faça essas migrações funcionarem:
+4.  Cd no projeto Dajngo como tal:
+
+        $ cd huai       
+5. Faça essas migrações funcionarem:
 
         $ python manage.py makemigrations
         $ python manage.py migrate
