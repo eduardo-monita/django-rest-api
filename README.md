@@ -42,6 +42,13 @@ Em um REST API, endpoints (URLs) definir a estrutura da API e como os usuários 
 
 Endpoint |HTTP | CRUD | Resultado
 -- | -- |-- |--
+`auth/login` | POST | CREATE | Cria um novo token para o usuário logado
+`auth/user` | GET | READ | Seleciona o usuário logado
+`auth/user` | PUT | UPDATE | Atualiza o usuário logado
+`auth/logout` | POST | CREATE | Desabilita o token gerado para o usuário
+`auth/auth/registration`| POST | CREATE | Cria um novo usuário(vendedor)
+`lote/:pk` | PUT | UPDATE | Atualiza um nove lote
+`lote/:pk` | DELETE | DELETE | Deleta um lote
 `lote/?page=valor` | GET | READ | Seleciona todos os lotes
 `lote/:pk` | GET | READ | Pega um único lote
 `lote`| POST | CREATE | Cria um novo lote
@@ -58,11 +65,6 @@ Endpoint |HTTP | CRUD | Resultado
 `cliente`| POST | CREATE | Cria um novo cliente
 `cliente/:pk` | PUT | UPDATE | Atualiza um nove cliente
 `cliente/:pk` | DELETE | DELETE | Deleta um cliente
-`vendedor/?page=valor` | GET | READ | Seleciona todos os vendedores
-`vendedor/:pk` | GET | READ | Pega um único vendedor
-`vendedor`| POST | CREATE | Cria um novo vendedor
-`vendedor/:pk` | PUT | UPDATE | Atualiza um nove vendedor
-`vendedor/:pk` | DELETE | DELETE | Deleta um vendedor
 `pedido/?page=valor` | GET | READ | Seleciona todos os pedidos
 `pedido-relat/?page=valor` | GET | READ | Seleciona todos os pedidos e suas respectivas relações detalhadas
 `pedido/:pk` | GET | READ | Pega um único pedido
