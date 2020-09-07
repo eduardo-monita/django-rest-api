@@ -21,7 +21,7 @@ Meu primeiro projeto Django utilizando rest-framework.
         $ pip install -r requirements.txt
 3.  Cd em seu repositório clonado como tal:
 
-    $ cd ./huai/
+        $ cd ./huai/
 4. Faça essas migrações funcionarem:
 
         $ python manage.py makemigrations
