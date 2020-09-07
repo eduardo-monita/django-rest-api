@@ -27,7 +27,6 @@ Meu primeiro projeto Django utilizando rest-framework.
         $ cd huai       
 5. Faça essas migrações funcionarem:
 
-        $ python manage.py makemigrations
         $ python manage.py migrate
 
 - # Executá-lo
