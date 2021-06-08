@@ -9,7 +9,7 @@ Meu primeiro projeto Django utilizando rest-framework.
         $ pip install virtualenv
 - Logo em seguida, Git clone este repositório para o seu PC
 
-        $ git clone https://github.com/duduMonita/django-rest-api.git
+        $ git clone https://github.com/eduardo-monita/django-rest-api.git
 ## Depêndencias
 1.  Cd em seu repositório clonado como tal:
 
