@@ -13,6 +13,7 @@ class SimpleWebhook(APIView):
     
     def post(self, request, *args, **kwargs):
         pass
+        print(request.data)
         return Response({}, status=status.HTTP_200_OK)
 
 class LoteListCreate(generics.ListCreateAPIView):
