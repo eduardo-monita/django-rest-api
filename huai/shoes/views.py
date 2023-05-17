@@ -1,11 +1,20 @@
 # from django_filters import rest_framework as filters
 from rest_framework import filters
 from rest_framework import generics
+from rest_framework import status
+from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
 from .models import *
 from .serializers import *
 
 # Create your views here.
+class SimpleWebhook(APIView):
+    
+    def post(self, request, *args, **kwargs):
+        pass
+        return Response({}, status=status.HTTP_200_OK)
+
 class LoteListCreate(generics.ListCreateAPIView):
 
     queryset = Lote.objects.all()

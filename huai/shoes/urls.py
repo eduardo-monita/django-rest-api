@@ -2,6 +2,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
+    url(r'^webhook/$', views.SimpleWebhook.as_view(), name='simple-webhook'),
     url(r'^lote/$', views.LoteListCreate.as_view(), name='lote-list-create'),
     url(r'^lote/(?P<pk>[0-9]+)/$', views.LoteDetail.as_view(), name='lote-detail'),
     url(r'^item-relat/$', views.ItemList.as_view(), name='item-list'),
